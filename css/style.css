@@ -1085,15 +1085,19 @@ z-index: 3;
 
 .Statistic .container .stat1 {
     background-color: rgb(105, 137, 189);
+       margin-top:15px;
 }
 .Statistic .container .stat2 {
     background-color: rgb(147, 233, 142);
+       margin-top:15px;
 }
 .Statistic .container .stat3 {
     background-color: rgb(238, 112, 112);
+       margin-top:15px;
 }
 .Statistic .container .stat4 {
     background-color: rgb(161, 153, 154);
+       margin-top:15px;
 }
 /* ===============end  Statistic style section ============================================*/
 
