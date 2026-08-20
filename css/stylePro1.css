@@ -197,6 +197,7 @@ header .container {
     margin-bottom: 5px;   
     margin-top: 5px;
 }
+
 /* -----     تنسيق بار التنقل  قائمةالترويسة */
 header .container nav {
     /* اخذ كامل الحجم والمحاذاة يمين  */
@@ -997,7 +998,7 @@ text-decoration: none;
      top:0;
     height: 10%;
  position:absolute;
-    color:#eee;
+    color:#0b0424;
     font-size:var(--sec-adress-h2-font-size);
    margin-left: 25%;
    text-align: center;
@@ -1630,8 +1631,8 @@ border-radius: 0 0 15px;
 }
 /* العرض الخاص4 */
 /*  طريقة ثانية لاختيار عرض  طريقة اخيار رقم الابن */
-.pricing-section .container .plan:nth-child(4)::before ,
-.pricing-section .container .plan:nth-child(2)::before
+.pricing-section .container .plan:nth-child(4)::before 
+/* .pricing-section .container .plan:nth-child(2)::before */
 {
     content: "قيد لتحضير  ";
     position: absolute;
@@ -1816,13 +1817,13 @@ color:rgb(218, 166, 21);
 footer {
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: rgb(126, 120, 120);
+    background-color: rgb(214, 212, 217);
     background-image: url("/CssPersonalWeb/images/background.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border-top:5px solid var(--main-txt-color) ;
-    
+
 }
 footer .container {
     display: grid;
@@ -1837,10 +1838,10 @@ footer .container .section {
 }
 }
 footer .container .section h2 {
-    color:white;
+       color:var(--main-txt-color);
 }
 footer .container .section p {
-     color:white;
+        color:var(--main-txt-color);
      margin-top: 15px;
      line-height: 1.8;
      width:90%;
@@ -1858,7 +1859,7 @@ footer .container .section a::after {
     transform: translateY(-25%);
 }
 footer .container .section a {
-    color:white;
+        color:var(--main-txt-color);
     display:block;
     margin-top:15px;
     transition: 0.3s;
@@ -1893,8 +1894,8 @@ border: 1px solid rgb(17, 149, 197);
     height: 40px;
 }
 .letter form input[type="submit"]:focus {
-background-color: var(--main-txt-color);
-color:white;
+background-color: var(--main-btn-bk-color);
+    color:var(--main-txt-color);
 padding: 10px 20px;
 border:none;
 border-radius: 5px;
@@ -1905,7 +1906,7 @@ transition: 0.3s;
 .letter form input[type="submit"]:hover {
 background-color: black;
 border: 1px solid white;
-color:white;
+    color:white;
 padding: 10px 20px;
 border-radius: 5px;
 cursor: pointer;
@@ -1913,13 +1914,14 @@ transition: 0.3s;
 
 }
 .hr-foorter {
-    width:70%;
+    
+    width:90%;
     margin-top:35px;
     transform: translateX(-15%)
 }
 .copyrights {
     text-align: center;
-    color:white;
+        color:var(--main-txt-color);
 }
 .btn-watsapp {
     position: fixed;
@@ -1942,5 +1944,24 @@ font-size: 35px;
 .btn-watsapp:hover {
     scale: 1.1;
 }
+footer .mem {
+    align-items: center;
+    padding-bottom: 50px;
+    text-align: center;
+      color:var(--main-txt-color);
+}
+
+footer .mem p {
+    font-size: 18px; 
+    font-weight: 700;
+}
+.claoud {
+    text-decoration: none;
+    color:#149dc6;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+}
+
 /* ===============end  footer style section ============================================*/
 
