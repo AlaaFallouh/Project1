@@ -1944,6 +1944,7 @@ align-items: center;
 transition: 0.3s;
 box-shadow: 0 0 3px #eee;
 font-size: 35px;
+    z-index:150;
 }
 .btn-watsapp:hover {
     scale: 1.1;
