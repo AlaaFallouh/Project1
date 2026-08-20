@@ -6,7 +6,11 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing:border-box ;
+    box-sizing: border-box ;
+}
+*::befpre ,
+*::after {
+    box-sizing: border-box;
 }
 /* تحديد المتغيرات  */
 :root {
@@ -92,6 +96,10 @@
 html {
     scroll-behavior: smooth;
 }
+img {
+    max-width:100%;
+    height: auto;
+}
 /* body تنسيق مقطع الجسم*/
 body {
     /* فونت البدي */
@@ -99,6 +107,9 @@ body {
     /* اتجاه الصفحة  */
     direction: rtl ;
     /* height:3500px; */
+    overflow-x: hedden;
+    max-width:
+        100%;
 }
 /* تصفير القائمة */
 nav ul {
