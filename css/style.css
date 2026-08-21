@@ -47,13 +47,13 @@
 
 
 /*h1 حجم الخط  */
---main-adress-h1-font-size: 40px;
+--main-adress-h1-font-size: 30px;
 /* ارضية الايقونات */
 --main-icon-bg-color:rgb(21, 21, 170);
 /* ارضية الايقونات هوفر */
 --main-icon-bg-color-hover:rgba(0, 0, 0, 0.441);
 /*h2 حجم فونت  */
---sec-adress-h2-font-size:30px;
+--sec-adress-h2-font-size:25px;
 /* h3 حجم فونت  */
 --third-adress-h3-font-size: 20px;
 /* حجم خط الفقرات  */
