@@ -1070,7 +1070,7 @@ z-index: 0;
    font-weight: 800;
 
 }
-.Statistic .container  .stat-img {
+.Statistic .container  .stat5 img {
    background-color: white;
 text-align: center;
 padding: 20px 0;
@@ -1108,6 +1108,10 @@ z-index: 3;
 }
 .Statistic .container .stat4 {
     background-color: rgb(161, 153, 154);
+       margin-top:15px;
+}
+.Statistic .container .stat5 {
+    background-color: rgb(243, 241, 241);
        margin-top:15px;
 }
 /* ===============end  Statistic style section ============================================*/
