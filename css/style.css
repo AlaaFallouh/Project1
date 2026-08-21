@@ -1070,29 +1070,28 @@ z-index: 0;
    font-weight: 800;
 
 }
-.Statistic .container  .stat5 img {
-   background-color: white;
+.Statistic .container  .stat5 {
+ /* background-color: rgb(243, 241, 241); */
+ margin-top:15px;
+background-color: white;
 text-align: center;
-padding: 20px 0;
+padding: 3px 0;
 /* border: var(--main-b-radius); */
-width: 90%;
-
+width:100%;
 border-radius: var(--main-b-radius);
 cursor: pointer;
 transition: 0.3s;
-height: 200px;
+height: 94%;
 display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
-z-index: 0;
+
 z-index: 3;
 
 }
 
-.Statistic .container  .stat-img img {
-    width:100%;
-}
+
 
 .Statistic .container .stat1 {
     background-color: rgb(105, 137, 189);
