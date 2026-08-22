@@ -1982,6 +1982,7 @@ z-index: 150;
 .btn-watsapp:hover {
     scale: 1.1;
 }
+.u-footer li {list-style-type: none; }
 footer .mem {
     align-items: center;
     padding-bottom: 50px;
